@@ -63,8 +63,8 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
 module Basic_gates(
-
 input A,B,
 output y0,y1,y2,y3,y4,y5
 );
@@ -75,7 +75,7 @@ nand g4(y3,A,B);
 nor g5(y4,A,B);
 xor g6(y5,A,B);
 endmodule
-
+```
  Developed by:DHAMODHARAN S RegisterNumber: 25009463
  
 **Logic symbol & Truthtable**
