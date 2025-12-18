@@ -64,17 +64,17 @@ Y= A⊕B
 
 **PROGRAM**
 ```
-module Basic_gates(
-input A,B,
-output y0,y1,y2,y3,y4,y5
-);
-and g1(y0,A,B);
-or g2(y1,A,B);
-not g3(y2,A);
-nand g4(y3,A,B);
-nor g5(y4,A,B);
-xor g6(y5,A,B);
+module ex1(a,b,c,d,e,f,g,h);
+input a,b;
+output c,d,e,f,g,h;
+assign c = a & b;
+assign d = a | b;
+assign e = a ^ b;
+assign f = ~(a & b);
+assign g = ~(a | b);
+assign h = ~(a ^ b);
 endmodule
+
 ```
  Developed by:DHAMODHARAN S RegisterNumber: 25009463
  
